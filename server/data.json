@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Sourdough",
+        "origin": "Ancient Egypt",
+        "ingredients": ["Flour", "Water", "Salt", "Yeast"],
+        "characteristics": "Tangy flavor, chewy texture"
+    },
+    {
+        "id": 2,
+        "name": "Baguette",
+        "origin": "France",
+        "ingredients": ["Flour", "Water", "Yeast", "Salt"],
+        "characteristics": "Crisp crust, soft interior"
+    }
+]

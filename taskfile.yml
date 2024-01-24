@@ -1,0 +1,9 @@
+version: "3"
+
+tasks:
+  install:
+    cmd: brew install pb33f/taps/wiretap
+
+  run-server:
+    dir: server
+    cmd: go run .
