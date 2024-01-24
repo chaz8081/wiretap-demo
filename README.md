@@ -11,6 +11,7 @@ This is a simple Go server that provides an API for retrieving and managing info
   - demo'd with v0.0.50: in order to install this version, you'll need to build from source
     - ```sh
       git clone git@github.com:pb33f/wiretap.git --branch v0.0.50
+      cd wiretap
       make build
       cp ./bin/wiretap <SOMEWHERE_IN_YOUR_PATH>
       ```
