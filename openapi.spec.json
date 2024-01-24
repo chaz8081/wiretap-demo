@@ -37,7 +37,7 @@
     "schemas": {
       "Bread": {
         "type": "object",
-        "maxProperties": 4,
+        "additionalProperties": false,
         "properties": {
           "id": {
             "type": "string"
