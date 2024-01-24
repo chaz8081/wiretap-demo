@@ -18,3 +18,8 @@ tasks:
     desc: Run the API server
     dir: server
     cmd: go run .
+
+  run-wiretap:
+    deps: [run-server]
+    desc: Run the Wiretap proxy server
+    cmd: wiretap

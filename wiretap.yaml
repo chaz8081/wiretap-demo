@@ -1,2 +1,5 @@
+# Points wiretap proxy to the correct backend
 redirectURL: http://localhost:8081
+
+# Test against the OpenAPI contract
 contract: openapi.spec.json
