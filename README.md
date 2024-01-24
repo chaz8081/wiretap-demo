@@ -10,7 +10,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Go 1.21.6 or later
 - [Wiretap](https://github.com/pb33f/wiretap)
-  - demo'd with v0.0.50
+  - demo'd with v0.0.50: in order to install this version, you'll need to build from source
+    - ```sh
+      git clone git@github.com:pb33f/wiretap.git --branch v0.0.50
+      make build
+      cp ./bin/wiretap <SOMEWHERE_IN_YOUR_PATH>
+      ```
+  - you can install the latest with brew, but sometimes it's a little flaky:
+    - `brew install pb33f/taps/wiretap`
 
 ### Running
 
