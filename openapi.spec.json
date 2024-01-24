@@ -37,21 +37,25 @@
     "schemas": {
       "Bread": {
         "type": "object",
+        "maxProperties": 4,
         "properties": {
           "id": {
-            "type": "integer"
+            "type": "string"
           },
           "name": {
             "type": "string"
           },
-          "origin": {
-            "type": "string"
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "characteristics": {
             "type": "string"
           }
         },
-        "required": ["id", "name", "origin", "ingredients", "characteristics"]
+        "required": ["id", "name", "ingredients", "characteristics"]
       }
     }
   }
