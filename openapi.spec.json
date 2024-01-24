@@ -47,12 +47,6 @@
           "origin": {
             "type": "string"
           },
-          "ingredients": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
           "characteristics": {
             "type": "string"
           }

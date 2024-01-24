@@ -3,19 +3,16 @@ package main
 import (
 	"encoding/json"
 	"os"
-	"sync"
 )
 
 type Bread struct {
-	ID              int      `json:"id"`
-	Name            string   `json:"name"`
-	Origin          string   `json:"origin"`
-	Ingredients     []string `json:"ingredients"`
-	Characteristics string   `json:"characteristics"`
+	ID          int      `json:"id"`
+	Name        string   `json:"name"`
+	Origin      string   `json:"origin"`
+	Ingredients []string `json:"ingredients"`
 }
 
 type BreadStore struct {
-	sync.Mutex
 	breads []Bread
 }
 

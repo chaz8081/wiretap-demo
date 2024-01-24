@@ -2,8 +2,19 @@ version: "3"
 
 tasks:
   install:
+    desc: Install dependencies (see summary)
+    summary: |
+      This task will install all dependencies for the project via brew.
+      However, since the wiretap is still in development, it is not yet stable.
+      The recommended way to install is to clone the repo and run:
+
+      ```sh
+      make build
+      sudo cp ./bin/wiretap /opt/homebrew/bin/wiretap # or wherever you want in your path, I preferred overwriting the brew installed bin
+      ```
     cmd: brew install pb33f/taps/wiretap
 
   run-server:
+    desc: Run the API server
     dir: server
     cmd: go run .
