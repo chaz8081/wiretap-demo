@@ -4,8 +4,6 @@ This is a simple Go server that provides an API for retrieving and managing info
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 - Go 1.21.6 or later
